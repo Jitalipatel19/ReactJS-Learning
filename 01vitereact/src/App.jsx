@@ -1,10 +1,13 @@
+import Chai from "./chai"
 
 function App() {
-  
-
   return (
-    <h1>Chai Aur react with vite | Jitali</h1>
+    // <> -> fragment return 
+    <>
+     <Chai/>
+     <h3>Jitali</h3>
+    </>
+   
   )
 }
-
 export default App
